@@ -29,15 +29,18 @@ body {
 	a {
 		color: $bb-brown;
 	}
+	.container {
+		margin: 2rem auto;
+	}
+	.nav-link {
+		color: $bb-yellow;
+	}
 }
 
 .navbar {
 	background: $bb-brown;
 	.navbar-brand {
 		color: $bb-yellow;
-	}
-	a,  {
-
 	}
 }
 
