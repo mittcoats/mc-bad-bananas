@@ -1,14 +1,13 @@
 #Bad Bananas
-##A movie review app inspired by Mackenzie Child
+###A movie review app inspired by Mackenzie Child
 
-###Added the following to learn more about front-end dev.
+####Added the following to learn more about front-end dev.
 1. Custom colors and fonts
 2. Bootstrap 4 Alpha
 
 ---
 
->Did you think I'd be too stupid to know what a eugoogly is?"
-*- Derek Zoolander/Ben Stiller in Zoolander
+>Did you think I'd be too stupid to know what a eugoogly is?" *- Derek Zoolander/Ben Stiller in Zoolander*
 
 
 --
