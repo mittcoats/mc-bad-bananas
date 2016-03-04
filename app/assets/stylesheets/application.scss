@@ -15,6 +15,7 @@
 $bb-font: 'Gloria Hallelujah';
 $bb-brown: #633D0E;
 $bb-yellow: #f9be02;
+$bb-green: #60B644;
 $bb-border: 2px solid $bb-brown;
 
 @import "bootstrap";
@@ -57,6 +58,17 @@ body {
 		opacity: .8;
 	}
 
+.img-thumbnail {
+	border: $bb-border;
+}
+
+
+.card {
+	border: $bb-border;
+	margin-top: 3rem;
+	padding: 20px;
+}
+
 .review_title {
 	margin: 0 0 20px 0;
 }
@@ -69,15 +81,14 @@ body {
 	}
 }
 
-.card {
-	border: $bb-border;
-	margin-top: 3rem;
-	padding: 20px;
+
+.star-rating {
+	.fa {
+		color: $bb-green; 
+	}
 }
 
-.img-thumbnail {
-	border: $bb-border;
-}
+
 
 
 
