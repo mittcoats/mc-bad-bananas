@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+$bb-font: 'Gloria Hallelujah';
+$bb-brown: #633D0E;
+$bb-yellow: #f9be02;
+$bb-border: 2px solid $bb-brown;
+
+@import "bootstrap";
+
+h1, h2, h3, h4, h5, h6, a, p, form, button {
+	font-family: $bb-font;
+}
+
+body {
+	background: $bb-yellow;
+	margin-bottom: 5rem;
+	a {
+		color: $bb-brown;
+	}
+}
+
+.navbar {
+	background: $bb-brown;
+	.navbar-brand {
+		color: $bb-yellow;
+	}
+	a,  {
+
+	}
+}
+
+.brand-icon {
+
+	transition: all 0.5s ease;
+	&:hover {
+		transform: scale(1.2) rotate(15deg);
+	}
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+		color: $bb-yellow;
+		opacity: .8;
+	}
+
+.review_title {
+	margin: 0 0 20px 0;
+}
+
+.reviews {
+	padding: 15px 0;
+	border-bottom: 1px solid #eaeaea;
+	.star-rating {
+		padding-bottom: 8px;
+	}
+}
+
+.card {
+	border: $bb-border;
+	margin-top: 3rem;
+	padding: 20px;
+}
+
+.img-thumbnail {
+	border: $bb-border;
+}
+
+
+
+

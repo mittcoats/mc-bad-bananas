@@ -4,16 +4,22 @@
 <head>
   <title>BadBananas</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 	 'application', 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 
 <body>
-	<% flash.each do |name, msg| %>
-		<%= content_tag(:div, msg, class: "alert alert-info") %>
-	<% end %>	
+	<%= render 'layouts/header' %>
+	<div class="container">
+		
+		<% flash.each do |name, msg| %>
+			<%= content_tag(:div, msg, class: "alert alert-info") %>
+		<% end %>	
 
-	<%= yield %>
+		<%= yield %>
+
+	</div>
 
 </body>
 
