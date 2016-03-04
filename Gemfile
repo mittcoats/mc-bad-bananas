@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.2.3'
 
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
@@ -13,6 +14,7 @@ gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'paperclip', '~> 4.3', '>= 4.3.5'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'searchkick', '~> 0.8.7'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'byebug'
