@@ -7,7 +7,7 @@
 
 ---
 
->Did you think I'd be too stupid to know what a eugoogly is?" *- Derek Zoolander/Ben Stiller in Zoolander*
+>Did you think I'd be too stupid to know what a eugoogly is?" *- Derek Zoolander*
 
 
 --
