@@ -1,7 +1,7 @@
-#Bad Bananas
-###A movie review app inspired by Mackenzie Child
+# Bad Bananas
+### A movie review app inspired by Mackenzie Child
 
-####Added the following to learn more about front-end dev:
+#### Added the following to learn more about front-end dev:
 1. Custom colors and fonts
 2. Bootstrap 4 Alpha
 
